@@ -1,0 +1,8 @@
+- name: "Test playbook for semaphore"
+  hosts: "test"
+
+  tasks:
+
+    - name: "Output the OS"
+      ansible.building.debug:
+        var: "ansible_distribution"

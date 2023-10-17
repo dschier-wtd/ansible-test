@@ -4,5 +4,5 @@
   tasks:
 
     - name: "Output the OS"
-      ansible.building.debug:
+      ansible.buildin.debug:
         var: "ansible_distribution"
